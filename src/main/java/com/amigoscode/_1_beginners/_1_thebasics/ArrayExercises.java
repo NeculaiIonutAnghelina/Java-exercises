@@ -57,6 +57,5 @@ public class ArrayExercises {
            sum+=num;
        }
         System.out.println(sum);
-
     }
 }
