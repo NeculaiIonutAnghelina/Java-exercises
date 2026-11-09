@@ -18,7 +18,8 @@ public class IfStatements {
     public static String evenOrOdd(int number) {
         // TODO: 1 - Use the ternary operator ( condition ? valueIfTrue : valueIfFalse )
         //  to return "Even" or "Odd" based on whether number % 2 == 0.
-        return null;
+        String result = number%2==0 ? "Even" : "Odd";
+        return result;
     }
 
     /**
@@ -33,7 +34,9 @@ public class IfStatements {
     public static boolean isEligibleForLoan(int age, double income, boolean hasGuarantor) {
         // TODO: 2 - Use a single return statement with && and || operators
         //  to express the eligibility condition described above.
-        return false;
+        return ((age >= 18 && income >= 30000) || (hasGuarantor && age >= 16));
+
+
     }
 
     /**
