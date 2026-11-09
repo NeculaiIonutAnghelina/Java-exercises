@@ -165,7 +165,7 @@ public class LoopExercises {
         // TODO: 7 - Use while(true) to create an infinite loop.
         //  Each iteration: increment attempts, generate a random int between 1 and 100,
         //  and break if it matches the target.
-        while(true){
+        while(true){ 
 
             ++attempts;
             int number = random.nextInt(100)+1;
