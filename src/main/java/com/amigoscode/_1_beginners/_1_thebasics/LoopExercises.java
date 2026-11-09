@@ -103,10 +103,12 @@ public class LoopExercises {
                 System.out.print(a*b+ " " );
 
 
+
             }
 
             System.out.println();
         }
+
 
         // TODO: 8 - Use break and continue in a loop
         // Write a for loop from 1 to 10:
