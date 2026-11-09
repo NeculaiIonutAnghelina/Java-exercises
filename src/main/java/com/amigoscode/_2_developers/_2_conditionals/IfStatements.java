@@ -18,8 +18,7 @@ public class IfStatements {
     public static String evenOrOdd(int number) {
         // TODO: 1 - Use the ternary operator ( condition ? valueIfTrue : valueIfFalse )
         //  to return "Even" or "Odd" based on whether number % 2 == 0.
-        String result = number%2==0 ? "Even" : "Odd";
-        return result;
+        return number%2==0 ? "Even" : "Odd";
     }
 
     /**
@@ -49,6 +48,7 @@ public class IfStatements {
     public static String getGrade(int score) {
         // TODO: 3 - Use nested ternary operators to return the correct grade.
         //  Example pattern: score >= 90 ? "A" : score >= 80 ? "B" : ...
+
         return null;
     }
 
