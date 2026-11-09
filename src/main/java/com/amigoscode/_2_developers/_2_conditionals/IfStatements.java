@@ -49,7 +49,7 @@ public class IfStatements {
         // TODO: 3 - Use nested ternary operators to return the correct grade.
         //  Example pattern: score >= 90 ? "A" : score >= 80 ? "B" : ...
 
-        return null;
+        return score>=90 ? "A": score>=80 ? "B" : score>=70 ? "C" : score>= 60 ? "D" :  "F";
     }
 
     /**
@@ -62,7 +62,13 @@ public class IfStatements {
     public static int safeLength(String text) {
         // TODO: 4 - Check if text is null before calling text.length().
         //  Return -1 if text is null, otherwise return text.length().
-        return 0;
+        if (text == null){
+            return -1;
+
+        }else{
+            return text.length();
+        }
+
     }
 
     /**
