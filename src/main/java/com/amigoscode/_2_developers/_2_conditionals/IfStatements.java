@@ -19,6 +19,7 @@ public class IfStatements {
         // TODO: 1 - Use the ternary operator ( condition ? valueIfTrue : valueIfFalse )
         //  to return "Even" or "Odd" based on whether number % 2 == 0.
         return number%2==0 ? "Even" : "Odd";
+
     }
 
     /**
@@ -84,7 +85,15 @@ public class IfStatements {
         //  If both are null, return true.
         //  If only one is null, return false.
         //  Otherwise, use a.equals(b) — never use == for string content comparison.
-        return false;
+
+        if((a==null)&&(b==null)){
+            return true;
+        }
+        if ((a==null)||(b==null)){
+
+            return false;
+        }
+        return a.equals(b);
     }
 
     /**
@@ -104,7 +113,20 @@ public class IfStatements {
         //      ...
         //      default -> "Invalid";
         //  };
-        return null;
+
+        return  switch (day){
+            case 1 -> "Monday";
+            case 2 -> "Tuesday";
+            case 3 -> "Wednesday";
+            case 4 -> "Thursday";
+            case 5 -> "Friday";
+            case 6 -> "Saturday";
+            case 7 -> "Sunday";
+            default -> "Invalid";
+
+        };
+
+
     }
 
     public static void main(String[] args) {
