@@ -94,7 +94,6 @@ public class PackageDemo {
         //  Call one of its static methods and print the result.
         //  Example: String result = com.amigoscode._2_developers._2_conditionals.IfStatements.evenOrOdd(4);
 
-        com.amigoscode._2_developers._2_conditionals.IfStatements.evenOrOdd(4);
         String result = com.amigoscode._2_developers._2_conditionals.IfStatements.evenOrOdd(4);
         System.out.println(result);
     }
